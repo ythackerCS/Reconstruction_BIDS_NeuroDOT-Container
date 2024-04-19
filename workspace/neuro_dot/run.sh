@@ -17,8 +17,6 @@ shift
 MNI_MAT=$1
 shift
 A_fn=$1
-shift
-MNI_path=$1
 
 dt=`date --utc +%Y%m%d-%H%M%S`
 

@@ -77,13 +77,6 @@
       "required": true,
       "replacement-key": "#MNI_FILE#",
       "select-values": []
-    },
-    {
-      "name": "Atlas_Surf",
-      "type": "string",
-      "required": true,
-      "replacement-key": "#MNI_path#",
-      "select-values": []
     }
   ],
   "outputs": [
@@ -269,25 +262,6 @@
           "user-settable": false,
           "load-children": true,
           "derived-from-wrapper-input": "atlas-vol-file",
-          "derived-from-xnat-object-property": "name",
-          "multiple": false
-        },
-        {
-          "name": "atlas-surf-file",
-          "type": "File",
-          "required": true,
-          "load-children": true,
-          "derived-from-wrapper-input": "atlas-resource",
-          "multiple": false
-        },
-        {
-          "name": "atlas-surf-file-name",
-          "type": "string",
-          "required": true,
-          "provides-value-for-command-input": "Atlas_Surf",
-          "user-settable": false,
-          "load-children": true,
-          "derived-from-wrapper-input": "atlas-surf-file",
           "derived-from-xnat-object-property": "name",
           "multiple": false
         }
